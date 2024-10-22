@@ -49,4 +49,8 @@ class GarmentsController < ApplicationController
   def set_garment
     @garment = Garment.find(params[:id])
   end
+
+  def set_booking
+    @booking = Booking.find(params[:id])
+  end
 end
